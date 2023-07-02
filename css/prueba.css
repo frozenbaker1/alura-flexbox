@@ -1,0 +1,41 @@
+.flex-container:first-child {
+    margin-top: 2em;
+}
+body {
+    width: 800px;
+    margin: 0;
+    padding: 0;
+}
+div {
+    height: 200px;
+    width: 200px;
+}
+div:nth-child(1) {
+    background-color: red; 
+}
+div:nth-child(2) {
+    background-color: blue;
+}
+div:nth-child(3) {
+    background-color: green;
+}
+div:nth-child(4) {
+    background-color: yellow;
+}
+.flex-container {
+    height: 800px;
+    display: flex;
+    flex-grow: 1;
+}
+.flex-item-row1{
+    flex-shrink: 2;
+}
+.flex-item-row2{
+    flex-shrink: 3;
+}
+.flex-item-row3{
+    flex-shrink: 1;
+}
+.flex-item-row4{
+    flex-shrink: 1;
+}
